@@ -1,0 +1,19 @@
+RELAÇÕES DE AGREGAÇÃO:
+
+"JogoVelha" (classe agregadora) e "Jogador" (classe agregada):
+É uma relação de "tem um" entre "JogoVelha" e "Jogador", onde "JogoVelha" tem um "Jogador", porém é uma relação mais
+fraca onde "JogoVelha" não controla a vida útil de um "Jogador".
+
+RELAÇÕES DE COMPOSIÇÃO:
+
+"JogoVelha" (classe composta) e "Tabuleiro" (classe componente):
+É uma relação de "tem um" entre "JogoVelha" e "Tabuleiro", onde "JogoVelha" tem um "Tabuleiro", porém é uma relação mais
+forte onde um "Tabuleiro" é instânciado dentro de um "JogoVelha", ou seja "JogoVelha" controla a vida útil de um "Tabuleiro".
+
+RELAÇÕES DE HERANÇA SIMPLES:
+
+"Jogador" (superclasse) e "JogadorComputador" (subclasse)/ "Jogador" (superclasse) e "JogadorHumano" (subclasse):
+Ambas são relações de "é um" onde "JogadorComputador" e "JogadorHumano" são especializações da superclasse "Jogador", como
+têm apenas uma classe mãe é uma herança simples
+
+
